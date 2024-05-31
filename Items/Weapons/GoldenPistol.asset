@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b5e0f005894e49adfe85b83c4fd34, type: 3}
+  m_Name: GoldenPistol
+  m_EditorClassIdentifier: 
+  ID: weapon-golden-pistol
+  itemName: Golden Pistol
+  description: This is a pistol made by gold.
+  gameObjectPrefab: {fileID: 4253451424027807430, guid: 0178dc29c89634132a68fa21b46cf36d, type: 3}
+  iconUI: {fileID: -1837438912, guid: b4868cff2368e4a408784791fa718fe4, type: 3}
+  damage: 12
+  weaponHoldPosition: {x: 0.36, y: -0.14, z: 0}
+  fireAmountPerSecond: 5
+  bulletSpeed: 10000
+  maxMagSize: 12
+  ammoAmount: 2000
+  bulletPrefab: {fileID: 6558038295271082307, guid: fa5cf1b743f05495a923b1507b47136f, type: 3}
+  bulletSpawnPoint: {x: 0.48, y: -0.17, z: 0}
